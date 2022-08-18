@@ -1,0 +1,147 @@
+body {
+    background: #79266b;
+    height: 100%
+}
+
+.welcome {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 100px;
+    margin-left: 100px;
+    font-family: 'VT323', monospace;
+}
+
+/*HEADER */
+
+#header-nav {
+	border-radius: 0;
+	border: 0;
+}
+
+#menu-options {
+	color: #f7ba70;
+    font-size: 25px;
+    margin: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#menu-options:hover {
+	color: #EBE0DD;
+}
+
+.navbar-brand a:link, .navbar-brand a:hover, .navbar-brand a:active {
+	text-decoration: none;
+}
+
+/* These are directly from the css bootcamp folder and they are for the magnifying glass button next to the search bar. 
+This is what the button looks like normally: */
+
+.btn-outline-success {
+    color: #4B3630;
+    border-color: #4B3630;
+    border-width: 1px;
+  }
+  
+  /* This is what the button looks like when you hover over it */
+  
+  .btn-outline-success:hover {
+    color: #F4C3B9;
+    background-color: #4B3630;
+    border-color: #4B3630;
+  }
+  
+  .navbar-toggler-icon:active {
+      border-width: 1px;
+  }
+
+  .formcontainer {
+    margin-left: 100px;
+    width: 500px;
+    height: auto;
+    background-color: #f7ba70;
+    border-radius: 8px;
+    float:left;
+    margin-bottom: 10px;
+  }
+
+  .formcontents {
+      font-family: 'PT Sans Narrow', sans-serif;
+      padding: 20px;
+      color:#79266b;
+
+  }
+
+  h3.form {
+    font-family: 'VT323', monospace;
+    color: #79266b;
+    text-align: center;
+    padding: 10px;
+  }
+
+  label {
+      padding: 10px;
+  }
+
+  #btn_1 {
+      border-width: 0px;
+      background-color: #79266b;
+      color:#f7ba70;
+  }
+
+  .tablecontainer {
+    margin-left: 20px;
+    width: 500px;
+    height: min-content; /* makes container grow with content*/
+    background-color: #f7ba70;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  h3.tablecontenthead {
+    font-family: 'VT323', monospace;
+    color:#79266b;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .tablecontent {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:#79266b;
+    border: solid 2px #79266b;
+    margin: 20px;
+    border-spacing: 10px;
+    border-collapse: separate;
+    }
+
+    a, a:focus, a:active {
+        text-decoration: none;
+        color: #79266b;
+   }
+
+   a:hover {
+       color: #ab3296;
+   }
+
+   .promgames {
+       text-align: center;
+       font-family: 'VT323', monospace;
+       font-size: 20px;
+       color:#79266b;
+   }
+
+   img {
+       width:230px;
+       height: auto;
+       display: inline;
+       margin-left: 12px;
+       align-items: center;
+       
+   }
+
+   .contentimage {
+     border-radius: 8px;
+     border: 2px solid #79266b;
+   }
